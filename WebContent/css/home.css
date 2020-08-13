@@ -1,0 +1,32 @@
+@media (min-width: 992px) {
+    .navbar {
+        height:50px;
+    }
+}
+.navbar li{
+    margin-right: 16px;
+    margin-left: 16px;
+    font-size: 17px;
+}
+
+.jumbotron{
+    color: white;
+    background-image: url(../images/doggg.jpg);
+    margin-bottom: 0px;
+}
+.jumbotron .btn{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.jumbotron a{
+    color:rgba(28, 52, 100, 0.747);;
+}
+.card-deck{
+    margin-bottom: 30px;
+}
+.card-group{
+    margin-top: 0px;
+}
+
+
+

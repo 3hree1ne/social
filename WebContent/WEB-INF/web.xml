@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	 xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	 version="3.1"> 
+<display-name>ServletProject</display-name>
+
+<servlet>
+	<servlet-name>ServletIndex</servlet-name>
+	<servlet-class>ServletProject.ServletIndex</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>ServletIndex</servlet-name>
+	<url-pattern>/servletindex</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>ServletSignup</servlet-name>
+	<servlet-class>ServletProject.ServletSignup</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>ServletSignup</servlet-name>
+	<url-pattern>/servletsignup</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>ServletLogin</servlet-name>
+	<servlet-class>ServletProject.ServletLogin</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>ServletLogin</servlet-name>
+	<url-pattern>/servletlogin</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>ServletHome</servlet-name>
+	<servlet-class>ServletProject.ServletHome</servlet-class>
+	</servlet>
+<servlet-mapping>
+	<servlet-name>ServletHome</servlet-name>
+	<url-pattern>/servlethome</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>ServletLogout</servlet-name>
+	<servlet-class>ServletProject.ServletLogout</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>ServletLogout</servlet-name>
+	<url-pattern>/servletlogout</url-pattern>
+</servlet-mapping>
+
+</web-app>

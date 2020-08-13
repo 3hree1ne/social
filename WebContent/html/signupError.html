@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Error, Socialize</title>
+
+<link href="css/bootstrap.css" rel="stylesheet">
+
+<link href="css/signup.css" rel="stylesheet">
+
+</head>
+<body>
+
+	<div class="text-center">
+		<img class="mb-4" id="logo" src="images/soci.png" alt="" width="120" height="120">
+	</div>
+	<div class="alert alert-danger" role="alert">
+  		Hatalı Giriş 
+	</div>
+	<form action="servletsignup" method="post">
+	  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputName4">Name</label>
+      <input type="text" name="name" class="form-control" id="inputName4">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputSurname4">Surname</label>
+      <input type="text" name="Surname" class="form-control" id="inputSurname4">
+    </div>
+  </div>
+  <div class="form-row">
+  	<div class="form-group col-md-6">
+      <label for="inputPassword4">Password</label>
+      <input type="password" name="passwd" class="form-control" id="inputPassword4">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPasswordConfirm4">Confirm Password</label>
+      <input type="password" name="passwdConfirm" class="form-control" id="inputPasswordConfirm4">
+    </div>
+    
+  </div>
+    <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputPetName4">Pet Name</label>
+      <input type="text" name="petName" class="form-control" id="inputPetName4">
+    </div>
+       <div class="form-group col-md-4">
+	      <label for="inputState">List of Pets</label>
+	      <select id="inputState" name="listOfPet" class="form-control">
+	        <option selected>Choose</option>
+	        <option>Dog</option>
+	        <option>Cat</option>
+	      </select>
+       </div>
+ 
+  </div>
+  <div class="form-row">
+     <div class="form-group col-md-6">
+      <label for="inputEmail4">Email</label>
+      <input type="email" name="email" class="form-control" id="inputEmail4">
+    </div>
+     <div class="form-group col-md-6">
+    <label for="inputAddress">Address</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+  </div>
+    </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputCity">City</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputState">State</label>
+      <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">I agree use terms</label>
+    </div>
+  </div>
+  <button id="buttonn" type="submit" class="btn btn-lg btn-light">Sign in</button>
+</form>
+</body>
+</html>
